@@ -1,0 +1,9 @@
+node_modules
+secrets.json
+.vscode/
+.idea/
+mapData.json
+/dist/
+/build/
+roulette.exe
+roulette.spec

@@ -1,0 +1,430 @@
+{
+    "legends": {
+        "Bloodhound": {
+            "title": "Technological Tracker",
+            "class": "Recon",
+            "passive": "Tracker",
+            "tactical": "Eye of the Allfather",
+            "ultimate": "Beast of the Hunt"
+        },
+        "Gibraltar": {
+            "title": "Shielded Fortress",
+            "class": "Defensive",
+            "passive": "Gun Shield",
+            "tactical": "Dome of Protection",
+            "ultimate": "Defensive Bombardment"
+        },
+        "Lifeline": {
+            "title": "Combat Medic",
+            "class": "Support",
+            "passive": "Combat Revive",
+            "tactical": "D.O.C. Heal Drone",
+            "ultimate": "Care Package"
+        },
+        "Pathfinder": {
+            "title": "Forward Scout",
+            "class": "Recon",
+            "passive": "Insider Knowledge",
+            "tactical": "Grappling Hook",
+            "ultimate": "Zipline Gun"
+        },
+        "Wraith": {
+            "title": "Interdimensional Skirmisher",
+            "class": "Offensive",
+            "passive": "Voices from the Void",
+            "tactical": "Into the Void",
+            "ultimate": "Dimensional Rift"
+        },
+        "Bangalore": {
+            "title": "Professional Soldier",
+            "class": "Offensive",
+            "passive": "Double Time",
+            "tactical": "Smoke Launcher",
+            "ultimate": "Rolling Thunder"
+        },
+        "Caustic": {
+            "title": "Toxic Trapper",
+            "class": "Defensive",
+            "passive": "Nox Vision",
+            "tactical": "Nox Gas Trap",
+            "ultimate": "Nox Gas Grenade"
+        },
+        "Mirage": {
+            "title": "Holographic Trickster",
+            "class": "Offensive",
+            "passive": "Now You See Me...",
+            "tactical": "Psyche Out",
+            "ultimate": "Life of the Party"
+        },
+        "Octane": {
+            "title": "High-Speed Daredevil",
+            "class": "Offensive",
+            "passive": "Swift Mend",
+            "tactical": "Stim",
+            "ultimate": "Launch Pad"
+        },
+        "Wattson": {
+            "title": "Static Defender",
+            "class": "Defensive",
+            "passive": "Spark of Genius",
+            "tactical": "Perimeter Security",
+            "ultimate": "Interception Pylon"
+        },
+        "Crypto": {
+            "title": "Surveillance Expert",
+            "class": "Recon",
+            "passive": "Neurolink",
+            "tactical": "Surveillance Drone",
+            "ultimate": "Drone EMP"
+        },
+        "Revenant": {
+            "title": "Synthetic Nightmare",
+            "class": "Offensive",
+            "passive": "Stalker",
+            "tactical": "Silence",
+            "ultimate": "Death Totem"
+        },
+        "Loba": {
+            "title": "Translocating Thief",
+            "class": "Support",
+            "passive": "Eye for Quality",
+            "tactical": "Burglar's Best Friend",
+            "ultimate": "Black Market Boutique"
+        },
+        "Rampart": {
+            "title": "Base of Fire",
+            "class": "Defensive",
+            "passive": "Modded Loader",
+            "tactical": "Amped Cover",
+            "ultimate": "Mobile Minigun \"Sheila\""
+        },
+        "Horizon": {
+            "title": "Gravitational Manipulator",
+            "class": "Offensive",
+            "passive": "Spacewalk",
+            "tactical": "Gravity Lift",
+            "ultimate": "Black Hole"
+        },
+        "Fuse": {
+            "title": "Explosives Enthusiast",
+            "class": "Offensive",
+            "passive": "Grenadier",
+            "tactical": "Knuckle Cluster",
+            "ultimate": "The Motherlode"
+        },
+        "Valkyrie": {
+            "title": "Winged Avenger",
+            "class": "Recon",
+            "passive": "VTOL Jets",
+            "tactical": "Missile Swarm",
+            "ultimate": "Skyward Dive"
+        },
+        "Seer": {
+            "title": "Ambush Artist",
+            "class": "Recon",
+            "passive": "Heart Seeker",
+            "tactical": "Focus of Attention",
+            "ultimate": "Exhibit"
+        },
+        "Ash": {
+            "title": "Incisive Instigator",
+            "class": "Offensive",
+            "passive": "Marked for Death",
+            "tactical": "Arc Snare",
+            "ultimate": "Phase Breach"
+        },
+        "Mad Maggie": {
+            "title": "Rebel Warlord",
+            "class": "Offensive",
+            "passive": "Warlord's Ire",
+            "tactical": "Riot Drill",
+            "ultimate": "Wrecking Ball"
+        },
+        "Newcastle": {
+            "title": "Mobile Guardian",
+            "class": "Defensive",
+            "passive": "Retrieve the Wounded",
+            "tactical": "Mobile Shield",
+            "ultimate": "Castle Wall"
+        },
+        "Vantage": {
+            "title": "Survivalist Sniper",
+            "class": "Recon",
+            "passive": "Spotter's Lens",
+            "tactical": "Echo Relocation",
+            "ultimate": "Sniper's Mark"
+        }
+    },
+    "weapons": {
+        "Havoc":{
+            "ammoType": "Energy",
+            "rarity": "Common",
+            "type": "AR"
+            },
+        "Flatline": {
+            "ammoType": "Heavy",
+            "rarity": "Common",
+            "type": "AR"
+            },
+        "Hemlok": {
+            "ammoType": "Heavy",
+            "rarity": "Common",
+            "type": "AR"
+            },
+        "R-301": {
+            "ammoType": "Light",
+            "rarity": "Common",
+            "type": "AR"
+            },
+        "Alternator": {
+            "ammoType": "Light",
+            "rarity": "Common",
+            "type": "SMG"
+            },
+        "Prowler": {
+            "ammoType": "Heavy",
+            "rarity": "Common",
+            "type": "SMG"
+            },
+        "R-99": {
+            "ammoType": "Light",
+            "rarity": "Common",
+            "type": "SMG"
+            },
+        "Volt": {
+            "ammoType": "Energy",
+            "rarity": "Common",
+            "type": "SMG"
+            },
+        "CAR": {
+            "ammoType": ["Heavy", "Light"],
+            "rarity": "Common",
+            "type": "SMG"
+            },
+        "Devotion": {
+            "ammoType": "Energy",
+            "rarity": "Crafter",
+            "type": "LMG"
+            },
+        "L-STAR": {
+            "ammoType": "Energy",
+            "rarity": "Common",
+            "type": "LMG"
+            },
+        "Spitfire": {
+            "ammoType": "Light",
+            "rarity": "Common",
+            "type": "LMG"
+            },
+        "Rampage": {
+            "ammoType": "Heavy",
+            "rarity": "Heirloom",
+            "type": "LMG"
+            },
+        "G7 Scout": {
+            "ammoType": "Light",
+            "rarity": "Common",
+            "type": "Marksman"
+            },
+        "Triple Take": {
+            "ammoType": "Energy",
+            "rarity": "Common",
+            "type": "Marksman"
+            },
+        "30-30 Repeater": {
+            "ammoType": "Heavy",
+            "rarity": "Common",
+            "type": "Marksman"
+            },
+        "Bocek": {
+            "ammoType": "Arrows",
+            "rarity": "Heirloom",
+            "type": "Marksman"
+            },
+        "Charge Rifle": {
+            "ammoType": "Sniper",
+            "rarity": "Common",
+            "type": "Sniper"
+            },
+        "Longbow": {
+            "ammoType": "Sniper",
+            "rarity": "Common",
+            "type": "Sniper"
+            },
+        "Kraber": {
+            "ammoType": "Sniper",
+            "rarity": "Heirloom",
+            "type": "Sniper"
+            },
+        "Sentinel": {
+            "ammoType": "Sniper",
+            "rarity": "Common",
+            "type": "Sniper"
+            },
+        "EVA-8": {
+            "ammoType": "Shells",
+            "rarity": "Common",
+            "type": "Shotgun"
+            },
+        "Mastiff": {
+            "ammoType": "Shells",
+            "rarity": "Heirloom",
+            "type": "Shotgun"
+            },
+        "Mozambique": {
+            "ammoType": "Shells",
+            "rarity": "Common",
+            "type": "Shotgun"
+            },
+        "Peacekeeper": {
+            "ammoType": "Shells",
+            "rarity": "Common",
+            "type": "Shotgun"
+            },
+        "RE-45": {
+            "ammoType": "Light",
+            "rarity": "Crafter",
+            "type": "Pistol"
+            },
+        "P2020": {
+            "ammoType": "Light",
+            "rarity": "Common",
+            "type": "Pistol"
+            },
+        "Wingman": {
+            "ammoType": "Sniper",
+            "rarity": "Common",
+            "type": "Pistol"
+            }
+    },
+    "maps": {
+        "olympus": {
+            "POIs": [
+                "Bonsai Plaza",
+                "Carrier",
+                "Docks",
+                "Elysium",
+                "Energy Depot",
+                "Estates",
+                "Fight Night",
+                "Gardens",
+                "Grow Towers",
+                "Hammond Labs",
+                "Hydroponics",
+                "Icarus",
+                "Oasis",
+                "Orbital Cannon",
+                "Phase Driver",
+                "Power Grid",
+                "Rift",
+                "Solar Array",
+                "Terminal"
+            ]
+        },
+        "stormpoint": { 
+              "POIs": [
+                  "Antenna",
+                  "Barometer",
+                  "Cascade Falls",
+                  "Cenote Cave",
+                  "Checkpoint",
+                  "Command Center",
+                  "Downed Beast",
+                  "Fish Farms",
+                  "Gale Station",
+                  "Highpoint",
+                  "Launch Pad",
+                  "Lightning Rod",
+                  "North Pad",
+                  "Ship Fall",
+                  "Storm Catcher",
+                  "The Mill",
+                  "The Wall",
+                  "Thunder Watch"
+              ]
+          },
+          "worldsedge": { 
+                "POIs": [
+                  "Big Maude",
+                  "Climatizer",
+                  "Countdown",
+                  "Fragment East",
+                  "Fragment West",
+                  "Harvester",
+                  "Landslide",
+                  "Launch Site",
+                  "Lava City",
+                  "Lava Fissure",
+                  "Lava Siphon",
+                  "Overlook",
+                  "Skyhook",
+                  "Staging",
+                  "Survey Camp",
+                  "The Dome",
+                  "The Epicenter",
+                  "The Geyser",
+                  "The Tree",
+                  "Thermal Station",
+                  "Trials"
+                ]
+            },
+            "kingscanyon": { 
+              "POIs": [
+                  "Airbase",
+                  "Artillery",
+                  "Broken Relay",
+                  "Bunker",
+                  "Capacitor",
+                  "Caustic Treatment",
+                  "Containment",
+                  "Crash Site",
+                  "Gauntlet",
+                  "Hydro Dam",
+                  "Labs",
+                  "Map Room",
+                  "Relic",
+                  "Repulsor",
+                  "Runoff",
+                  "Salvage",
+                  "Spotted Lake",
+                  "Supply Ship",
+                  "Swamps",
+                  "The Cage",
+                  "The Pit",
+                  "The Rig"
+                  ]
+              }
+        },
+    "challenges": {
+        "custom": [
+            "Run the first ammo type you find for both your weapons. (If you find a stack of energy ammo, only run energy weapons that match)",
+            "Run the first two weapons you find for the entire match. (If you land to a P2020 and a 3T, that's your loadout.)",
+            "Fortified legends only, (Gibraltar, Caustic, Newcastle)",
+            "Fire at sight. (The second you see an enemy, engage, no matter what your loadout or position is)",
+            "Play a match using only shotguns.",
+            "Play a match using only snipers.",
+            "Push to live. (W-Key mentality)",
+            "Smol squad. (Lifeline, Wattson, Wraith)",
+            "Play a match while only walking backwards",
+            "Movement squad. (Horizon, Octane, Pathfinder)",
+            "Revive squad. (Lifeline, Gibraltar, Mirage, Newcastle, assemble the squad to your likings)",
+            "Ironsights only. (Don't pick up and use any optics, no matter how bad the irons are)",
+            "Play a match using only the Wingman.",
+            "One pill challenge. (Only open one supply bin for the entire game, don't pick up floor loot)",
+            "Loot goblin squad. (Loba, Octane, Lifeline)",
+            "Controller challenge. (If not everyone has a controller, reroll)",
+            "Change your mouse sensitivity by 3 (Either up or down, that's up to you. Don't change your DPI accordingly)",
+            "Play a match in windowed 720x480 resolution.",
+            "Play a match without running.",
+            "Play a match using only pistols.",
+            "Play a match using only the Mozambique.",
+            "Don't use the ping wheel. (That includes spam-pinging enemies with E/F)",
+            "Change your loadout each time you find a deathbox of a player you killed.",
+            "Change your display to greyscale.",
+            "Switch mouse hands. (Play with your left hand if you're right handed, and vice versa)",
+            "Turn off game audio. (Mute everything except voicelines)",
+            "Play a match while wearing gloves.",
+            "Play a match while listening to music together on full volume. (Using a music bot makes this easier)"
+        ]
+    }
+}

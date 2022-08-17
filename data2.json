@@ -1,0 +1,305 @@
+{
+    "0": {
+        "name" : "Weapons",
+        "0":
+        {
+            "name": "Havoc",
+            "ammoType": "Energy",
+            "rarity": "Common",
+            "type": "AR"
+            },
+        "1": 
+            {
+            "name": "Flatline",
+            "ammoType": "Heavy",
+            "rarity": "Crafter",
+            "type": "AR"
+            },
+        "2": 
+            {
+            "name": "Hemlok",
+            "ammoType": "Heavy",
+            "rarity": "Common",
+            "type": "AR"
+            },
+        "3": 
+            {
+            "name": "R-301",
+            "ammoType": "Light",
+            "rarity": "Common",
+            "type": "AR"
+            },
+        "4": 
+            {
+            "name": "Alternator",
+            "ammoType": "Light",
+            "rarity": "Common",
+            "type": "SMG"
+            },
+        "5": 
+            {
+            "name": "Prowler",
+            "ammoType": "Heavy",
+            "rarity": "Common",
+            "type": "SMG"
+            },
+        "6": 
+            {
+            "name": "R-99",
+            "ammoType": "Light",
+            "rarity": "Common",
+            "type": "SMG"
+            },
+        "7": 
+            {
+            "name": "Volt",
+            "ammoType": "Energy",
+            "rarity": "Heirloom",
+            "type": "SMG"
+            },
+        "8": 
+            {
+            "name": "CAR",
+            "ammoType": ["Heavy", "Light"],
+            "rarity": "Common",
+            "type": "SMG"
+            },
+        "9": 
+            {
+            "name": "Devotion",
+            "ammoType": "Energy",
+            "rarity": "Common",
+            "type": "LMG"
+            },
+        "10": 
+            {
+            "name": "L-STAR",
+            "ammoType": "Energy",
+            "rarity": "Common",
+            "type": "LMG"
+            },
+        "11": 
+            {
+            "name": "Spitfire",
+            "ammoType": "Heavy",
+            "rarity": "Common",
+            "type": "LMG"
+            },
+        "12": 
+            {
+            "name": "Rampage",
+            "ammoType": "Heavy",
+            "rarity": "Common",
+            "type": "LMG"
+            },
+        "13": 
+            {
+            "name": "G7 Scout",
+            "ammoType": "Light",
+            "rarity": "Heirloom",
+            "type": "Marksman"
+            },
+        "14": 
+            {
+            "name": "Triple Take",
+            "ammoType": "Energy",
+            "rarity": "Common",
+            "type": "Marksman"
+            },
+        "15": 
+            {
+            "name": "30-30 Repeater",
+            "ammoType": "Heavy",
+            "rarity": "Common",
+            "type": "Marksman"
+            },
+        "16": 
+            {
+            "name": "Bocek",
+            "ammoType": "Arrows",
+            "rarity": "Common",
+            "type": "Marksman"
+            },
+        "17": 
+            {
+            "name": "Charge Rifle",
+            "ammoType": "Sniper",
+            "rarity": "Common",
+            "type": "Sniper"
+            },
+        "18": 
+            {
+            "name": "Longbow",
+            "ammoType": "Sniper",
+            "rarity": "Crafter",
+            "type": "Sniper"
+            },
+        "19": 
+            {
+            "name": "Kraber",
+            "ammoType": "Sniper",
+            "rarity": "Heirloom",
+            "type": "Sniper"
+            },
+        "20": 
+            {
+            "name": "Sentinel",
+            "ammoType": "Sniper",
+            "rarity": "Common",
+            "type": "Sniper"
+            },
+        "21": 
+            {
+            "name": "EVA-8",
+            "ammoType": "Shells",
+            "rarity": "Common",
+            "type": "Shotgun"
+            },
+        "22": 
+            {
+            "name": "Mastiff",
+            "ammoType": "Shells",
+            "rarity": "Heirloom",
+            "type": "Shotgun"
+            },
+        "23": 
+            {
+            "name": "Mozambique",
+            "ammoType": "Shells",
+            "rarity": "Common",
+            "type": "Shotgun"
+            },
+        "24": 
+            {
+            "name": "Peacekeeper",
+            "ammoType": "Shells",
+            "rarity": "Common",
+            "type": "Shotgun"
+            },
+        "25": 
+            {
+            "name": "RE-45",
+            "ammoType": "Light",
+            "rarity": "Common",
+            "type": "Pistol"
+            },
+        "26": 
+            {
+            "name": "P2020",
+            "ammoType": "Light",
+            "rarity": "Common",
+            "type": "Pistol"
+            },
+        "27": 
+            {
+            "name": "Wingman",
+            "ammoType": "Heavy",
+            "rarity": "Common",
+            "type": "Pistol"
+            }
+    },
+    "1": 
+    {
+        "name": "maps",
+        "Olympus": {
+            "name": "Olympus",
+                "POIs": [
+                "Bonsai Plaza",
+                "Carrier",
+                "Docks",
+                "Elysium",
+                "Energy Depot",
+                "Estates",
+                "Fight Night",
+                "Gardens",
+                "Grow Towers",
+                "Hammond Labs",
+                "Hydroponics",
+                "Icarus",
+                "Oasis",
+                "Orbital Cannon",
+                "Phase Driver",
+                "Power Grid",
+                "Rift",
+                "Solar Array",
+                "Terminal"
+            ]
+        },
+        "Storm Point": { 
+            "name": "Storm Point",
+                "POIs": [
+                  "Antenna",
+                  "Barometer",
+                  "Cascade Falls",
+                  "Cenote Cave",
+                  "Checkpoint",
+                  "Command Center",
+                  "Fish Farms",
+                  "Gale Station",
+                  "Highpoint",
+                  "Launch Pad",
+                  "Lightning Rod",
+                  "North Pad",
+                  "Ship Fall",
+                  "Storm Catcher",
+                  "The Mill",
+                  "The Wall",
+                  "Thunder Watch"
+              ]
+        },
+          
+        "World's Edge": {
+            "name": "World's Edge", 
+                "POIs": [
+                  "Big Maude",
+                  "Climatizer",
+                  "Countdown",
+                  "Fragment East",
+                  "Fragment West",
+                  "Harvester",
+                  "Landslide",
+                  "Launch Site",
+                  "Lava City",
+                  "Lava Fissure",
+                  "Lava Siphon",
+                  "Overlook",
+                  "Skyhook",
+                  "Staging",
+                  "Survey Camp",
+                  "The Dome",
+                  "The Epicenter",
+                  "The Geyser",
+                  "The Tree",
+                  "Thermal Station",
+                  "Trials"
+                ]
+        },
+
+        "King's Canyon": {
+            "name": "King's Canyon", 
+                "POIs": [
+                  "Airbase",
+                  "Artillery",
+                  "Broken Relay",
+                  "Bunker",
+                  "Capacitor",
+                  "Caustic Treatment",
+                  "Containment",
+                  "Crash Site",
+                  "Gauntlet",
+                  "Hydro Dam",
+                  "Labs",
+                  "Map Room",
+                  "Repulsor",
+                  "Runoff",
+                  "Salvage",
+                  "Spotted Lake",
+                  "Supply Ship",
+                  "Swamps",
+                  "The Cage",
+                  "The Pit",
+                  "The Rig"
+                  ]
+              }
+        }
+}
