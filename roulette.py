@@ -33,9 +33,9 @@ from tkinter import messagebox
 with open("secrets.json", "r") as secretsData:
     secrets = json.load(secretsData)
     auth = secrets["authtoken"]
+    gamemodeType = secrets["gamemodeType"]
 
 mapRequest = f"https://api.mozambiquehe.re/maprotation?version=2&auth={auth}"
-
 
 # Main functions used for the program
 def generate(jsonData, mapRequest):
@@ -139,8 +139,8 @@ def generate(jsonData, mapRequest):
     # If the map data is empty, or the end time has passed, it will call for the API
     if mapData["end"] == 0 or mapData["end"] < time.time():
         response = requests.get(mapRequest)
-        currentMap = response.json()["battle_royale"]["current"]["map"]
-        mapEndTimer = response.json()["battle_royale"]["current"]["end"]
+        currentMap = response.json()[gamemodeType]["current"]["map"]
+        mapEndTimer = response.json()[gamemodeType]["current"]["end"]
 
         # Create new dictionary with new data to push to data file
         newMapData = {
@@ -303,7 +303,7 @@ def yieldWeapons(jsonData):
 
 def selectMap(jsonData, mapRequest):
     response = requests.get(mapRequest)
-    currentMap = response.json()["battle_royale"]["current"]["map"]
+    currentMap = response.json()[gamemodeType]["current"]["map"]
 
     if currentMap == "Kings Canyon":
         # Create blank list to push POIs from the JSON into

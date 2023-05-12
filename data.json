@@ -9,7 +9,7 @@
         },
         "Gibraltar": {
             "title": "Shielded Fortress",
-            "class": "Defensive",
+            "class": "Support",
             "passive": "Gun Shield",
             "tactical": "Dome of Protection",
             "ultimate": "Defensive Bombardment"
@@ -23,49 +23,49 @@
         },
         "Pathfinder": {
             "title": "Forward Scout",
-            "class": "Recon",
+            "class": "Skirmisher",
             "passive": "Insider Knowledge",
             "tactical": "Grappling Hook",
             "ultimate": "Zipline Gun"
         },
         "Wraith": {
             "title": "Interdimensional Skirmisher",
-            "class": "Offensive",
+            "class": "Skirmisher",
             "passive": "Voices from the Void",
             "tactical": "Into the Void",
             "ultimate": "Dimensional Rift"
         },
         "Bangalore": {
             "title": "Professional Soldier",
-            "class": "Offensive",
+            "class": "Assault",
             "passive": "Double Time",
             "tactical": "Smoke Launcher",
             "ultimate": "Rolling Thunder"
         },
         "Caustic": {
             "title": "Toxic Trapper",
-            "class": "Defensive",
+            "class": "Controller",
             "passive": "Nox Vision",
             "tactical": "Nox Gas Trap",
             "ultimate": "Nox Gas Grenade"
         },
         "Mirage": {
             "title": "Holographic Trickster",
-            "class": "Offensive",
+            "class": "Support",
             "passive": "Now You See Me...",
             "tactical": "Psyche Out",
             "ultimate": "Life of the Party"
         },
         "Octane": {
             "title": "High-Speed Daredevil",
-            "class": "Offensive",
+            "class": "Skirmisher",
             "passive": "Swift Mend",
             "tactical": "Stim",
             "ultimate": "Launch Pad"
         },
         "Wattson": {
             "title": "Static Defender",
-            "class": "Defensive",
+            "class": "Controller",
             "passive": "Spark of Genius",
             "tactical": "Perimeter Security",
             "ultimate": "Interception Pylon"
@@ -79,7 +79,7 @@
         },
         "Revenant": {
             "title": "Synthetic Nightmare",
-            "class": "Offensive",
+            "class": "Assault",
             "passive": "Stalker",
             "tactical": "Silence",
             "ultimate": "Death Totem"
@@ -93,28 +93,28 @@
         },
         "Rampart": {
             "title": "Base of Fire",
-            "class": "Defensive",
+            "class": "Controller",
             "passive": "Modded Loader",
             "tactical": "Amped Cover",
             "ultimate": "Mobile Minigun \"Sheila\""
         },
         "Horizon": {
             "title": "Gravitational Manipulator",
-            "class": "Offensive",
+            "class": "Skirmisher",
             "passive": "Spacewalk",
             "tactical": "Gravity Lift",
             "ultimate": "Black Hole"
         },
         "Fuse": {
             "title": "Explosives Enthusiast",
-            "class": "Offensive",
+            "class": "Assault",
             "passive": "Grenadier",
             "tactical": "Knuckle Cluster",
             "ultimate": "The Motherlode"
         },
         "Valkyrie": {
             "title": "Winged Avenger",
-            "class": "Recon",
+            "class": "Skirmisher",
             "passive": "VTOL Jets",
             "tactical": "Missile Swarm",
             "ultimate": "Skyward Dive"
@@ -128,21 +128,21 @@
         },
         "Ash": {
             "title": "Incisive Instigator",
-            "class": "Offensive",
+            "class": "Assault",
             "passive": "Marked for Death",
             "tactical": "Arc Snare",
             "ultimate": "Phase Breach"
         },
         "Mad Maggie": {
             "title": "Rebel Warlord",
-            "class": "Offensive",
+            "class": "Assault",
             "passive": "Warlord's Ire",
             "tactical": "Riot Drill",
             "ultimate": "Wrecking Ball"
         },
         "Newcastle": {
             "title": "Mobile Guardian",
-            "class": "Defensive",
+            "class": "Support",
             "passive": "Retrieve the Wounded",
             "tactical": "Mobile Shield",
             "ultimate": "Castle Wall"
@@ -153,6 +153,20 @@
             "passive": "Spotter's Lens",
             "tactical": "Echo Relocation",
             "ultimate": "Sniper's Mark"
+        },
+        "Catalyst": {
+            "title": "Defensive Conjurer",
+            "class": "Controller",
+            "passive": "Barricade",
+            "tactical": "Piercing Spikes",
+            "ultimate": "Dark Veil"
+        },
+        "Ballistic": {
+            "title": "Refined Gunslinger",
+            "class": "Assault",
+            "passive": "Sling",
+            "tactical": "Whistler",
+            "ultimate": "Tempest"
         }
     },
     "weapons": {
@@ -168,7 +182,7 @@
             },
         "Hemlok": {
             "ammoType": "Heavy",
-            "rarity": "Common",
+            "rarity": "Heirloom",
             "type": "AR"
             },
         "R-301": {
@@ -176,9 +190,14 @@
             "rarity": "Common",
             "type": "AR"
             },
+        "Nemesis": {
+            "ammoType": "Energy",
+            "rarity": "Common",
+            "type": "AR"
+        },
         "Alternator": {
             "ammoType": "Light",
-            "rarity": "Common",
+            "rarity": "Crafter",
             "type": "SMG"
             },
         "Prowler": {
@@ -203,12 +222,12 @@
             },
         "Devotion": {
             "ammoType": "Energy",
-            "rarity": "Crafter",
+            "rarity": "Common",
             "type": "LMG"
             },
         "L-STAR": {
             "ammoType": "Energy",
-            "rarity": "Common",
+            "rarity": "Heirloom",
             "type": "LMG"
             },
         "Spitfire": {
@@ -218,7 +237,7 @@
             },
         "Rampage": {
             "ammoType": "Heavy",
-            "rarity": "Heirloom",
+            "rarity": "Common",
             "type": "LMG"
             },
         "G7 Scout": {
@@ -258,7 +277,7 @@
             },
         "Sentinel": {
             "ammoType": "Sniper",
-            "rarity": "Common",
+            "rarity": "Crafter",
             "type": "Sniper"
             },
         "EVA-8": {
@@ -268,7 +287,7 @@
             },
         "Mastiff": {
             "ammoType": "Shells",
-            "rarity": "Heirloom",
+            "rarity": "Common",
             "type": "Shotgun"
             },
         "Mozambique": {
@@ -283,7 +302,7 @@
             },
         "RE-45": {
             "ammoType": "Light",
-            "rarity": "Crafter",
+            "rarity": "Common",
             "type": "Pistol"
             },
         "P2020": {
@@ -397,34 +416,49 @@
         },
     "challenges": {
         "custom": [
-            "Run the first ammo type you find for both your weapons. (If you find a stack of energy ammo, only run energy weapons that match)",
-            "Run the first two weapons you find for the entire match. (If you land to a P2020 and a 3T, that's your loadout.)",
-            "Fortified legends only, (Gibraltar, Caustic, Newcastle)",
-            "Fire at sight. (The second you see an enemy, engage, no matter what your loadout or position is)",
-            "Play a match using only shotguns.",
-            "Play a match using only snipers.",
+            "Shoot on sight. (The second you see an enemy, engage, no matter what your loadout or position is)",
             "Push to live. (W-Key mentality)",
-            "Smol squad. (Lifeline, Wattson, Wraith)",
             "Play a match while only walking backwards",
-            "Movement squad. (Horizon, Octane, Pathfinder)",
-            "Revive squad. (Lifeline, Gibraltar, Mirage, Newcastle, assemble the squad to your likings)",
             "Ironsights only. (Don't pick up and use any optics, no matter how bad the irons are)",
-            "Play a match using only the Wingman.",
             "One pill challenge. (Only open one supply bin for the entire game, don't pick up floor loot)",
-            "Loot goblin squad. (Loba, Octane, Lifeline)",
             "Controller challenge. (If not everyone has a controller, reroll)",
             "Change your mouse sensitivity by 3 (Either up or down, that's up to you. Don't change your DPI accordingly)",
             "Play a match in windowed 720x480 resolution.",
             "Play a match without running.",
-            "Play a match using only pistols.",
-            "Play a match using only the Mozambique.",
             "Don't use the ping wheel. (That includes spam-pinging enemies with E/F)",
             "Change your loadout each time you find a deathbox of a player you killed.",
             "Change your display to greyscale.",
             "Switch mouse hands. (Play with your left hand if you're right handed, and vice versa)",
             "Turn off game audio. (Mute everything except voicelines)",
             "Play a match while wearing gloves.",
-            "Play a match while listening to music together on full volume. (Using a music bot makes this easier)"
+            "Play a match while listening to music together on full volume. (Using a music bot makes this easier)",
+            "Take a sip of any drink after you get a knockdown. (Immediately after, not after the fight)",
+            "No comms on Discord.",
+            "No heals. (Swaps allowed) (No syringes, medkits, shield cells, batteries, phoenix kits, or gold knockdown shields)",
+            "No abilities. (No tacticals, no ultimates, no passives if possible)",
+            "Hardcore mode. (No shields, no helmet, no knockdown shield, up to white backpack, no attachments, no respawn beacons)",
+            "Play like you're part of ALGS finals. (No pushing, no looting, no fighting, only positioning)",
+            "Run the first ammo type you find for both your weapons. (If you find a stack of energy ammo, only run energy weapons that match)",
+            "Run the first two weapons you find for the entire match. (If you land to a P2020 and a 3T, that's your loadout.)",
+            "Play a match using only the Mozambique.",
+            "Play a match using only the Wingman.",
+            "Play a match using only pistols.",
+            "Play a match using only shotguns.",
+            "Play a match using only snipers.",
+            "Play a match using only LMGs.",
+            "Play a match using only SMGs.",
+            "Play a match using only ARs.",
+            "Play a match using only Marksman Rifles.",
+            "Smol squad. (Lifeline, Wattson, Wraith)",
+            "Movement squad. (Horizon, Octane, Pathfinder)",
+            "Loot goblin squad. (Loba, Octane, Lifeline)",
+            "Cringe squad (Rampart, Revenant, Caustic, Wattson)",
+            "Fortified legends only, (Gibraltar, Caustic, Newcastle)",
+            "Play a match of Assault characters",
+            "Play a match of Recon characters",
+            "Play a match of Skirmisher characters",
+            "Play a match of Support characters",
+            "Play a match of Controller characters"
         ]
     }
 }
