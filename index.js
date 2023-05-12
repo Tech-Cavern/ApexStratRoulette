@@ -8,10 +8,18 @@
 ** Better API inclusion [DONE]
 */
 
+
 const fetch = require("node-fetch")
 const secrets = require('./secrets.json' );
 const alert = require('alert');
 const fs = require('fs');
+
+if (!fs.existsSync('./mapData.json')) {
+    fs.copyFileSync('./mapData.example.json', './mapData.json');
+}
+if (!fs.existsSync('./secrets.json')) {
+    alert("Please create a secrets.json file with your API keys and try again. [Example: secrets.example.json]");
+}
 const rawData = JSON.parse(fs.readFileSync('./data2.json', 'utf8'));
 const mapData = JSON.parse(fs.readFileSync('./mapData.json', 'utf8'));
 
@@ -36,7 +44,7 @@ function request(self, url) {
     })
     .catch(function (err) {
       return Promise.reject(err);
-    });
+    }); 
 };
 async function Initialize() {
     await mapCheck();
