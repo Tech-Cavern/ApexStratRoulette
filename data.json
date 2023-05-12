@@ -411,7 +411,25 @@
                   "The Pit",
                   "The Rig"
                   ]
-              }
+              },
+            "brokenmoon": {
+                "POIs": [
+                    "Alpha Base",
+                    "Atmostation",
+                    "Backup Atmo",
+                    "Breaker Wharf",
+                    "Cultivation",
+                    "Dru Gulch",
+                    "Eternal Gardens",
+                    "North Promenade",
+                    "Production Yard",
+                    "South Promenade",
+                    "Terraformer",
+                    "The Core",
+                    "The Divide",
+                    "The Foundry"
+                ]
+            }
         },
     "challenges": {
         "custom": [
